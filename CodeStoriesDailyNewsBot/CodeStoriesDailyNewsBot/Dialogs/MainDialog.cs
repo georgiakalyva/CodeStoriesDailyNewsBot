@@ -75,19 +75,19 @@ namespace Microsoft.BotBuilderSamples
                     }
                     break;
                 case "Big Data":
-                    foreach (var item in Cards.GetAnnouncements())
+                    foreach (var item in Cards.GetBigData())
                     {
                         reply.Attachments.Add(item.ToAttachment());
                     }
                     break;
                 case "Cloud Strategy":
-                    foreach (var item in Cards.GetAnnouncements())
+                    foreach (var item in Cards.GetCloudStrategy())
                     {
                         reply.Attachments.Add(item.ToAttachment());
                     }
                     break;
                 case "Developer":
-                    foreach (var item in Cards.GetAnnouncements())
+                    foreach (var item in Cards.GetDeveloper())
                     {
                         reply.Attachments.Add(item.ToAttachment());
                     }
